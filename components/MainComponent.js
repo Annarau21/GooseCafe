@@ -1,7 +1,7 @@
 //Main imports
 
 import React, { Component } from 'react';
-import { View, Platform } from 'react-native';
+import { View, Platform, Image } from 'react-native';
 import { createStackNavigator, createDrawerNavigator } from 'react-navigation';
 
 //Imports from Components
@@ -11,8 +11,6 @@ import About from './AboutComponent';
 import Contact from './ContactComponent';
 import Menu from './MenuComponent';
 import ReserveSpace from './ReserveSpaceComponent';
-
-//Data
 
 //Navigation
 
@@ -29,7 +27,12 @@ const MenuNavigator = createStackNavigator(
             headerTintColor: '#fff',
             headerTitleStyle: {
                 color: '#fff'
-            }
+            },
+            headerLeft: <Image
+            source={require('./images/Geese/GooseClipart_2.png')}
+            style={{height: 50, width: 50, margin: 10, marginBottom: 20}}
+            onPress={() => navigation.toggleDrawer()}
+            />
         }
     }
 );
@@ -46,7 +49,12 @@ const HomeNavigator = createStackNavigator(
             headerTintColor: '#fff',
             headerTitleStyle: {
                 color: '#fff'
-            }
+            },
+            headerLeft: <Image
+            source={require('./images/Geese/GooseClipart_2.png')}
+            style={{height: 50, width: 50, margin: 10, marginBottom: 20}}
+            onPress={() => navigation.toggleDrawer()}
+            />
         }
     }
 );
@@ -63,7 +71,12 @@ const AboutNavigator = createStackNavigator(
             headerTintColor: '#fff',
             headerTitleStyle: {
                 color: '#fff'
-            }
+            },
+            headerLeft: <Image
+            source={require('./images/Geese/GooseClipart_2.png')}
+            style={{height: 50, width: 50, margin: 10, marginBottom: 20}}
+            onPress={() => navigation.toggleDrawer()}
+            />
         }
     }
 );
@@ -80,7 +93,12 @@ const ContactNavigator = createStackNavigator(
             headerTintColor: '#fff',
             headerTitleStyle: {
                 color: '#fff'
-            }
+            },
+            headerLeft: <Image
+            source={require('./images/Geese/GooseClipart_2.png')}
+            style={{height: 50, width: 50, margin: 10, marginBottom: 20}}
+            onPress={() => navigation.toggleDrawer()}
+            />
         }
     }
 );
@@ -98,7 +116,12 @@ const ReserveSpaceNavigator = createStackNavigator(
             headerTintColor: '#fff',
             headerTitleStyle: {
                 color: '#fff'
-            }
+            },
+            headerLeft: <Image
+            source={require('./images/Geese/GooseClipart_2.png')}
+            style={{height: 50, width: 50, margin: 10, marginBottom: 20}}
+            onPress={() => navigation.toggleDrawer()}
+            />
         }
     }
 );

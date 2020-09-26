@@ -2,25 +2,25 @@ export const DRINKS = [
     { //Start hot Drinks
         id: 0,
         name: "Plain Coffee",
-        image: 'components\images\Drinks\coffee.jpg',
+        image: './images/beans.jpg',
         type: "hot",
-        price: "5 / 7",
+        price: "$5 / $7",
         sizes: "8 oz / 12 oz"
     },
     {
         id: 1,
         name: "Latte",
-        image: 'components\images\Drinks\coffee.jpg',
+        image: './images/beans.jpg',
         type: "hot",
-        price: "5 / 7",
+        price: "$5 / $7",
         sizes: "8 oz / 12 oz"
     },
     {
         id: 2,
         name: "Macchiato",
-        image: '',
+        image: './images/beans.jpg',
         type: "hot",
-        price: "3",
+        price: "$3",
         sizes: "4 oz"
     },
     {
@@ -28,7 +28,7 @@ export const DRINKS = [
         name: "Pour Over",
         image: '',
         type: "hot",
-        price: "3 / 4",
+        price: "$3 / $4",
         sizes: "8 oz / 12 oz"
     },
     {
@@ -36,7 +36,7 @@ export const DRINKS = [
         name: "Tea Latte",
         image: '',
         type: "hot",
-        price: "5",
+        price: "$5",
         sizes: "12 oz"
     },
     {
@@ -44,7 +44,7 @@ export const DRINKS = [
         name: "Hot Chocolate",
         image: '',
         type: "hot",
-        price: "4 / 5",
+        price: "$4 / $5",
         sizes: "8 oz / 12 oz"
     },
     {
@@ -52,7 +52,7 @@ export const DRINKS = [
         name: "Mocha",
         image: '',
         type: "hot",
-        price: "5 / 6",
+        price: "$5 / $6",
         sizes: "8 oz / 12 oz"
     },
     {
@@ -60,7 +60,7 @@ export const DRINKS = [
         name: "Americano",
         image: '',
         type: "hot",
-        price: "3",
+        price: "$3",
         sizes: "12 oz"
     },
     {
@@ -68,7 +68,7 @@ export const DRINKS = [
         name: "Cappuccino",
         image: '',
         type: "hot",
-        price: "4",
+        price: "$4",
         sizes: "6 oz"
     },
     {
@@ -76,7 +76,7 @@ export const DRINKS = [
         name: "Espresso",
         image: '',
         type: "hot",
-        price: "3",
+        price: "$3",
         sizes: "3 oz"
     },
     {
@@ -84,7 +84,7 @@ export const DRINKS = [
         name: "Tea",
         image: '',
         type: "hot",
-        price: "3",
+        price: "$3",
         sizes: "12 oz"
     },
     {
@@ -92,7 +92,7 @@ export const DRINKS = [
         name: "Chai Latte",
         image: '',
         type: "hot",
-        price: "4 / 5",
+        price: "$4 / $5",
         sizes: "8 oz / 12 oz"
     },
     { // Start Cold Drinks
@@ -100,7 +100,7 @@ export const DRINKS = [
         name: "Cold Brew",
         image: '',
         type: "cold",
-        price: "5",
+        price: "$5",
         sizes: "16 oz"
     },
     { 
@@ -108,42 +108,42 @@ export const DRINKS = [
         name: "Iced Latte",
         image: '',
         type: "cold",
-        price: "5",
+        price: "$5",
         sizes: "16 oz"
     },{ 
         id: 14,
         name: "Iced Tea",
         image: '',
         type: "cold",
-        price: "3",
+        price: "$3",
         sizes: "16 oz"
     },{ 
         id: 15,
         name: "Iced Americano",
         image: '',
         type: "cold",
-        price: "3",
+        price: "$3",
         sizes: "16 oz"
     },{ 
         id: 16,
         name: "Iced Chai Latte",
         image: '',
         type: "cold",
-        price: "5",
+        price: "$5",
         sizes: "16 oz"
     },{ 
         id: 17,
         name: "Iced Mocha",
         image: '',
         type: "cold",
-        price: "5",
+        price: "$5",
         sizes: "16 oz"
     },{ 
         id: 18,
         name: "Iced Caramel Macchiato",
         image: '',
         type: "cold",
-        price: "5",
+        price: "$5",
         sizes: "16 oz"
     },
     { 
@@ -151,7 +151,7 @@ export const DRINKS = [
         name: "Iced Plain Coffee",
         image: '',
         type: "cold",
-        price: "5 / 7",
+        price: "$5 / $7",
         sizes: "8 oz / 12 oz"
     }
 
