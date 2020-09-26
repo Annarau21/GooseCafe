@@ -1,15 +1,15 @@
 export const FOOD = [
     {
         id: 0,
-        name: "Plain Bagel",
-        image: '',
-        price: "3"
-    },
-    {
-        id: 1,
         name: "Chocolate Croissant",
         image: '',
         price: "4"
+    },
+    {
+        id: 1,
+        name: "Plain Bagel",
+        image: '',
+        price: "3"
     },
     {
         id: 2,
